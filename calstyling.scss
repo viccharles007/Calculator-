@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent_div {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 8px;
+    
+    .cal_displaydiv {
+        width: 350px;
+        height: 60px;
+        background-color: black;
+        margin-top: 50px;
+        margin-left: 50px;
+        border-radius: 10px;
+
+        .display_num {
+            display: flex;
+            color: rgba(255, 255, 255, 0.274);
+            margin-top: 10px;
+            margin-left: 40px;
+            font-size: 30px;
+            font-family: monospace;
+        }
+    }
+
+    .num_one {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 60px;
+        border-radius: 5px;
+
+        .numb_one {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_two {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 150px;
+        border-radius: 5px;
+
+        .numb_two {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+    }
+
+    .num_three {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 250px;
+        border-radius: 5px;
+
+        .numb_three {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_four {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 150px;
+        position: absolute;
+        margin-left: 350px;
+        border-radius: 5px;
+
+        .numb_four {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_five {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 60px;
+        border-radius: 5px;
+
+        .numb_five {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_six {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 150px;
+        border-radius: 5px;
+
+        .numb_six {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_seven {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 250px;
+        border-radius: 5px;
+
+        .numb_seven {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .plus_div {
+        display: flex;
+        height: 150px;
+        width: 50px;
+        background-color: lightcyan;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 352px;
+        border-radius: 5px;
+
+        .plus_sign {
+            margin-top: 50px;
+            margin-left: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+    }
+
+    .num_eight {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 250px;
+        position: absolute;
+        margin-left: 60px;
+        border-radius: 5px;
+
+        .numb_eight {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_nine {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 250px;
+        position: absolute;
+        margin-left: 150px;
+        border-radius: 5px;
+
+        .numb_nine {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .num_zero {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 250px;
+        position: absolute;
+        margin-left: 250px;
+        border-radius: 5px;
+
+        .numb_zero {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .minus_div {
+        display: flex;
+        height: 40px;
+        width: 100px;
+        background-color: lightgrey;
+        margin-top: 310px;
+        position: absolute;
+        margin-left: 220px;
+        border-radius: 5px;
+
+        .minus_sign {
+            margin-top: 10px;
+            margin-left: 40px;
+            font-size: 40px;
+            // position: absolute;
+            align-self: center;
+        }
+    }
+
+    .multiplication_div {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: lightblue;
+        margin-top: 360px;
+        position: absolute;
+        margin-left: 350px;
+        border-radius: 5px;
+
+        .multiplication_sign {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .division_div {
+        display: flex;
+        height: 40px;
+        width: 90px;
+        background-color: rgb(192, 132, 132);
+        margin-top: 360px;
+        position: absolute;
+        margin-left: 225px;
+        border-radius: 5px;
+
+        .division_sign {
+            margin-top: 10px;
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .si_div {
+        display: flex;
+        height: 40px;
+        width: 50px;
+        background-color: white;
+        margin-top: 320px;
+        position: absolute;
+        margin-left: 150px;
+        border-radius: 5px;
+
+        .si_sign {
+            margin-top: 10px;
+            margin-left: 5px;
+            font-family: monospace;
+        }
+    }
+
+    .arr_div {
+        display: flex;
+        height: 60px;
+        width: 50px;
+        background-color: white;
+        margin-top: 320px;
+        position: absolute;
+        margin-left: 60px;
+        border-radius: 5px;
+        
+        .arr_sign {
+            margin-top: 20px;
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
